@@ -1,17 +1,16 @@
-// java.util.Scanner;
+import java.util.*;
 
 public class Day_1 {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 43;
-        int sum = a + b;
-        int diff = b - a;
-        int mul = a*b;
-        int question = (a*b)/(b-a);
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        
 
-        System.out.println(sum);
-        System.out.println(diff);
-        System.out.println(mul);
-        System.out.println(question);
+        if(a%2==0) {
+            System.out.println("a is even number");
+        } else {
+            System.out.println("a is odd");
+        }
+
     }
 }
