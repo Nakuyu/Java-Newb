@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Day_1 {
     public static void main(String[] args) {
-        System.out.println("Enter two numbers:");
+        System.out.println("Enter three numbers:");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
